@@ -14,7 +14,8 @@
   "[javascript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
-  "css.customData": [
-    ".vscode/tailwind.json"
-  ]
+  "css.customData": [".vscode/tailwind.json"],
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
