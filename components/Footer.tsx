@@ -1,22 +1,17 @@
-import BrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/brand-github.tsx";
+import BrandGithub from "https://deno.land/x/tabler_icons_tsx@0.0.6/tsx/brand-github.tsx";
 
 export default function Footer() {
   const menus = [
     {
-      title: "Documentation",
+      title: "Erişim",
       children: [
-        { name: "Getting Started", href: "#" },
-        { name: "Guide", href: "#" },
-        { name: "API", href: "#" },
-        { name: "Showcase", href: "#" },
-        { name: "Pricing", href: "#" },
-      ],
-    },
-    {
-      title: "Community",
-      children: [
-        { name: "Forum", href: "#" },
-        { name: "Discord", href: "#" },
+        {
+          name: "Twitter",
+          href: "https://twitter.com/kemalgencay",
+        },
+        { name: "Facebook", href: "https://www.facebook.com/kemal.gencay.5" },
+        { name: "Instegram", href: "https://www.instagram.com/gencaykemal" },
+        { name: "e-posta", href: "mailto:kemalgencay@gmail.com" },
       ],
     },
   ];
@@ -54,13 +49,12 @@ export default function Footer() {
 
       <div class="text-gray-500 space-y-2">
         <div class="text-xs">
-          Copyright © {new Date().getFullYear()} Kemal Gençay, <br />
+          Copyright © 2020 DenoLand<br />
           All right reserved.
         </div>
 
         <a
-          href="https://github.com/kemalgencay/fresh-project"
-          target="blank"
+          href="https://github.com/denoland/fresh"
           class="inline-block hover:text-black"
           aria-label="GitHub"
         >
