@@ -49,12 +49,12 @@ export default function Footer() {
 
       <div class="text-gray-500 space-y-2">
         <div class="text-xs">
-          Copyright © 2020 DenoLand<br />
-          All right reserved.
+          Copyright © {new Date().getFullYear()} Kemal Gençay<br></br>{" "}
+          Tüm hakları saklıdır
         </div>
 
         <a
-          href="https://github.com/denoland/fresh"
+          href="https://github.com/kemalgencay/kemal"
           class="inline-block hover:text-black"
           aria-label="GitHub"
         >
