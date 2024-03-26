@@ -8,6 +8,7 @@ export default function Footer() {
         {
           name: "Twitter",
           href: "https://twitter.com/kemalgencay",
+          target: "_blank",
         },
         { name: "Facebook", href: "https://www.facebook.com/kemal.gencay.5" },
         { name: "Instegram", href: "https://www.instagram.com/gencaykemal" },
