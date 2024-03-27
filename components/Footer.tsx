@@ -5,12 +5,9 @@ export default function Footer() {
     {
       title: "Erişim",
       children: [
-        {
-          name: "Twitter",
-          href: "https://twitter.com/kemalgencay",
-          target: "_blank",
-        },
+        { name: "Twitter", href: "https://twitter.com/kemalgencay" },
         { name: "Facebook", href: "https://www.facebook.com/kemal.gencay.5" },
+        { name: "Youtube", href: "http://www.youtube.com/@KemalGencay" },
         { name: "Instegram", href: "https://www.instagram.com/gencaykemal" },
         { name: "e-posta", href: "mailto:kemalgencay@gmail.com" },
       ],
