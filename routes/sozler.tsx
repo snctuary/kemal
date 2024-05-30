@@ -9,7 +9,7 @@ export default function Hero() {
         >
           <div class="space-y-4 text-center">
             <h1 class="text-4xl inline-block font-bold">
-              Pek Yakında...
+              Pek Yakında sizinle
             </h1>
           </div>
         </div>
