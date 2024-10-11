@@ -9,7 +9,7 @@ import * as $hakkimda from "./routes/hakkimda.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $sozler from "./routes/sozler.tsx";
 
-import { type Manifest } from "$fresh/server.ts";
+import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
