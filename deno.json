@@ -22,6 +22,6 @@
     "tailwindcss/plugin": "npm:/tailwindcss@3.3.5/plugin.js",
     "$std/": "https://deno.land/std@0.208.0/"
   },
-  "compilerOptions": { "jsx": "react-jsx", "jsxImportSource": "preact" },
-  "nodeModulesDir": "auto"
+  "compilerOptions": { "jsx": "react-jsx", "jsxImportSource": "preact" }
 }
+
