@@ -11,7 +11,7 @@ interface Data extends State {
 
 export const handler: Handlers<Data, State> = {
   async GET(_req, ctx) {
-    const post = await loadPost(ctx.params.id);
+    const post = await loadPost(ctx.params.postid);
     if (!post) {
       return new Response("Post not found", { status: 404 });
     }
