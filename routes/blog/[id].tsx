@@ -1,3 +1,4 @@
+// deno-lint-ignore-file react-no-danger
 import { Handlers, PageProps } from "$fresh/server.ts";
 import * as gfm from "$gfm";
 import { tw } from "twind";

@@ -9,7 +9,7 @@ export default function layouts({ children }: any) {
       <nav class="tw w-full px-4 py-3 bg-blue-800 text-white mb-10">
         <a class="tw mx-4" href="/">Ana sayfa</a>
         <a class="tw mx-4" href="/hakkimda">Hakkımda</a>
-        <a class="tw mx-4" href="/blog" target="blank">Yazılar</a>
+        <a class="tw mx-4" href="/blog/[id].tsx">Yazılar</a>
         <a class="tw mx-4" href="/sozler">Sözler</a>
       </nav>
       {children}

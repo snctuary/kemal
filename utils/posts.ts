@@ -1,4 +1,4 @@
-import { extract } from "$std/encoding/front_matter.ts";
+import { extractJson } from "jsr:@std/front-matter";
 
 export interface Post {
   id: string;
@@ -18,7 +18,7 @@ export async function loadPost(id: string): Promise<Post | null> {
     }
     throw err;
   }
-  const { attrs, body } = extract(text);
+  const { attrs, body } = extractJson(text);
   const params = attrs as Record<string, string>;
   const publishAt = new Date(params.publish_at);
   return {

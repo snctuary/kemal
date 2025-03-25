@@ -1,5 +1,5 @@
 import { listPosts, loadPost } from "./posts.ts";
-import { assert, assertEquals } from "$std/testing/asserts.ts";
+import { assert, assertEquals } from "jsr:@std/testing/asserts.ts";
 
 Deno.test("load post", async () => {
   const post = await loadPost("hello");
