@@ -5,10 +5,11 @@
 import * as $_name_ from "./routes/[name].tsx";
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $blog_id_ from "./routes/blog/[id].tsx";
 import * as $hakkimda from "./routes/hakkimda.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $sozler from "./routes/sozler.tsx";
-
+import * as $LocaleSelector from "./islands/LocaleSelector.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -16,11 +17,14 @@ const manifest = {
     "./routes/[name].tsx": $_name_,
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/blog/[id].tsx": $blog_id_,
     "./routes/hakkimda.tsx": $hakkimda,
     "./routes/index.tsx": $index,
     "./routes/sozler.tsx": $sozler,
   },
-  islands: {},
+  islands: {
+    "./islands/LocaleSelector.tsx": $LocaleSelector,
+  },
   baseUrl: import.meta.url,
 } satisfies Manifest;
 
